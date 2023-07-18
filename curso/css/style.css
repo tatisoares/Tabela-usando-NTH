@@ -1,0 +1,46 @@
+body {
+    margin: 50px;
+    font-size: 15px;
+}
+
+h1{
+    font-size:50px;
+    font-family:cursive;
+    text-align:center;
+    color:blue;
+}
+table{
+    border:2px solid #2f2f2fcc;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+thead{
+    background-color:rgb(39, 39, 176);
+    font-size:25px;
+    color:#ffffff;
+    width:600px;
+    text-align:center;
+}
+tbody{
+    font-size:18px;
+    text-align:center;
+}
+td{
+    border:1px solid #323030;
+    font-family:Verdana;
+}
+tr{
+    font-family:Verdana;
+}
+th{
+    font-weight:normal;
+}
+
+tbody tr:hover{
+    background-color:rgb(199, 199, 226);
+
+}
+tbody tr:nth-child(even){
+    background-color: rgb(92, 92, 222);
+}
